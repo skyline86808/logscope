@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.main {
+  z-index: 10;
+  position: absolute;
+  padding: 20px;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #fff;
+}
+
+.love-note {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.apology {
+  font-size: 1.2em;
+  color: #fffbe0;
+  margin-bottom: 30px;
+}
+
+.from {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+canvas#hearts {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
